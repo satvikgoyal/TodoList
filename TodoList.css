@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: serif;
+}
+body{
+    margin:3%;
+    background-color: #d8f3dc;
+}
+h1{
+    margin-bottom: 3%;
+    padding: 16px;
+    background-color: #236c7e;
+    color: #d0f3e0;
+    font-size: 45px;
+    border-radius: 10px;
+    border: 1px solid black;
+     box-shadow: 2px 5px 6px rgb(49, 48, 48);
+}
+.container{
+    width: 50%;
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    color:#236c7e;
+    opacity: 0.9; 
+  }
+  
+#additem{
+    width: 80%;
+    height: 50px;
+    /* color: #237251; */
+    margin-bottom: 15px;
+    background-color:#ffffff;
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 5px 6px rgb(49, 48, 48);
+}
+
+#addbutton {
+    width: 15%;
+    height: 50px;
+    color: #d0f3e0;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #236c7e;
+    box-shadow: 4px 5px 6px rgb(49,48,48);
+}
+.editinput{
+    margin-right:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:40px;
+    width:65%;
+    color: #ffffff; 
+    background-color: #236c7e;
+    border: 1px solid black;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 4px 5px 6px rgb(49, 48, 48);
+}
+li{
+    list-style-type: none;
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.editinp:disabled{
+    opacity: 0.7;
+}
+.fa-trash-alt{
+    background-color: rgb(253, 54, 54);
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(95, 93, 93);
+}
+.fa-edit{
+    background-color: rgb(159, 241, 82);
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(49,48,48);
+}
+.fa-sort-up{
+    background-color: #90dfdc;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(49,48,48);
+}
+.fa-sort-down{
+    background-color: #ffee52;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(49,48,48);
+}
